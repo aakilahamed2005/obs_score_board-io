@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<!--<meta http-equiv="refresh" content="1">-->
+</head>
+<body class="body">
+	<div class="frame-box">
+		<div class="round-1" id="logo_1">
+			<!-- The Logo should be inside 600x600 pixels -->
+			<img src="img/royal.png" class="img-1">
+		</div>
+		<div class="box-1" id="box-1">
+
+			<div class="text-1" id="team1_name">Team 1</div>
+			
+		</div>
+		<div class="mark-1 mark-box-left" id="mark-1">0</div>
+
+		<div class="mark-2 mark-box-right" id="mark-2">0</div>
+
+		<div class="box-2" id="box-2">
+			<div class="text-2"  id="team2_name">Team 2</div>
+			
+		</div>
+		<div class="round-2" id="logo_2">
+			<!-- The Logo should be inside 600x600 pixels -->
+			<img src="img/trinity.png" class="img-2">
+		</div>
+	</div>
+
+	<div class="row-1">
+		<div class="btn-frame">
+			<div class="heading">Score Board Count</div>
+			<div class="btn-box-1">
+				<div class="text-3" id="team1_name_">Team 1</div>
+				<button class="btn primary" onclick="home_plus();">+</button>
+				<button class="btn danger" onclick="home_minus();">-</button>
+			</div>
+
+			<div class="btn-box-2">
+				<div class="text-4"  id="team2_name_">Team 2</div>
+				<button class="btn primary" onclick="visitor_plus();">+</button>
+				<button class="btn danger" onclick="visitor_minus();">-</button>
+			</div>
+
+			<button class="btn-reset danger" onclick="reset();">Reset</button>
+		</div>
+
+		<div class="settings-box">
+			<div class="heading">Score Board Settings Dashboard</div>
+
+			<div class="team-1-form">
+				<input type="text" name="team_1_name" placeholder="Name of Team 1" class="input-field" id="team-1-name" maxlength="20" size="20">
+				<button onclick="team_1_name();" class="btn">Submit</button>
+			</div>
+			
+
+			<div class="team-2-form">
+				<input type="text" name="team_2_name" placeholder="Name of Team 2" class="input-field" id="team-2-name" maxlength="20" size="20">
+				<button onclick="team_2_name();" class="btn">Submit</button>
+			</div>
+			<div class="logo-show_hide">
+				<div class="heading">Score Board Logo <span class="highlight-1">Show/Hide</span></div>
+				<button onclick="show_logo();" class="btn">Show Logo</button>
+				<button onclick="hide_logo();" class="btn">Hide Logo</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="row-2">
+		<div class="box-3">
+			<div class="heading">Score Board Color Customization</div>
+
+				<label for="team_1_bg_color" class="text-5">Team 1 Background Color&nbsp;</label>
+				<input type="text" name="team_1_bg_color" class="color_select" id="team_1_bg_color" placeholder="hex code">
+				<button class="btn-1" onclick="team_1_bg_color_change();">Change</button>
+
+				<br><br>
+				<label for="team_2_bg_color" class="text-6 ">Team 2 Background Color&nbsp;</label>
+				<input type="text" name="team_2_bg_color" class="color_select" id="team_2_bg_color" placeholder="hex code">
+				<button class="btn-1" onclick="team_2_bg_color_change();">Change</button>
+
+
+				<br><br><br>
+				<label for="team_1_fg_color" class="text-5">Team 1 Foreground Color&nbsp;</label>
+				<input type="text" name="team_1_fg_color" class="color_select" id="team_1_fg_color" placeholder="hex code">
+				<button class="btn-1" onclick="team_1_fg_color_change();">Change</button>
+
+				<br><br>
+				<label for="team_2_fg_color" class="text-6 ">Team 2 Foreground Color&nbsp;</label>
+				<input type="text" name="team_2_fg_color" class="color_select" id="team_2_fg_color" placeholder="hex code">
+				<button class="btn-1" onclick="team_2_fg_color_change();">Change</button>
+
+
+
+				<br><br><br>
+				<label for="mark_box_bg_color" class="text-5">Mark box Background Color</label>
+				<input type="text" name="mark_box_bg_color" class="color_select" id="mark_box_bg_color" placeholder="hex code">
+				<button class="btn-1" onclick="mark_box_bg_color();">Change</button>
+
+				<br><br>
+				<label for="mark_box_fg_color" class="text-5">Mark box Foreground Color</label>
+				<input type="text" name="mark_box_fg_color" class="color_select" id="mark_box_fg_color" placeholder="hex code">
+				<button class="btn-1" onclick="mark_box_fg_color();">Change</button>
+
+		</div>
+	</div>
+
+
+
+	<div class="copy">&copy;Developed by Aakil Ahamed</div>
+	<script type="text/javascript" src="scripts.js"></script>
+
+
+	<!-- Copyright Reserved by Aakil Ahamed -->
+	<!-- All the Design and ideas are designed by Aakil Ahamed -->
+</body>
+</html>

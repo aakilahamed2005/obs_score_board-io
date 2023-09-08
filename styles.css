@@ -1,0 +1,291 @@
+.body{
+	margin: 0px;
+	font-family: "Arial";
+}
+
+.frame-box{
+	margin-left: 20px;
+	margin-top: 10px;
+	height: 55px;
+	width: 680px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.box-1{
+	text-align: center;
+	padding: 10px;
+	margin-top: 5px;
+	height: 25px;
+	width: 200px;
+	background-color: #555555;
+}
+
+.box-2{
+	text-align: center;
+	padding: 10px;
+	margin-top: 5px;
+	height: 25px;
+	width: 200px;
+	background-color: #555555;
+
+}
+
+
+.round-1{
+	background-color: #666666;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #dddddd;
+	border-radius: 100%;
+}
+
+.round-2{
+	background-color: #666666;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #dddddd;
+	border-radius: 100%;
+}
+
+
+.text-1{
+	display: inline;
+	font-size: 20px;
+	color: white;
+	padding-left: 5px;
+}
+
+.text-2{
+	display: inline;
+	font-size: 20px;
+	color: white;
+	padding-left: 5px;
+
+}
+
+.mark-1{
+	display: inline;
+	font-size: 25px;
+	color: dodgerblue;
+	text-align: center;
+	padding-top: 11px;
+}
+
+.mark-2{
+	display: inline;
+	font-size: 25px;
+	color: dodgerblue;
+	text-align: center;
+	padding-top: 11px;
+}
+
+.mark-box-left{
+	background-color: #444444;
+	width: 60px;
+	border: 1px solid #aaaaaa;
+}
+
+.mark-box-right{
+	background-color: #444444;
+	width: 60px;
+	border: 1px solid #aaaaaa;
+	margin-left: 20px;
+}
+
+.row-1{
+	display: flex;
+	flex-direction: row;
+}
+
+.btn-frame{
+	margin-left: 30px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	color: white;
+	background-color: #333333;
+	margin-top: 80px;
+	width: 500px;
+}
+
+.btn-frame .heading{
+	font-size: 35px;
+	padding-left: 0px;
+	padding-top: 10px;
+}
+
+.text-3{
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+.text-4	{
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+.btn{
+	width: 50px;
+	height: 30px;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+}
+
+.btn:focus{
+	box-shadow: 0px 0px 1px 2px #aaaaaa;
+}
+
+.primary{
+	background-color: dodgerblue;
+
+}
+
+.danger{
+	background-color: #ff0000;
+}
+
+.btn-reset{
+	width: 80px;
+	height: 30px;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 50px;
+}
+
+.btn-reset:focus{
+	box-shadow: 0px 0px 1px 2px #aaaaaa;
+}
+
+.img-1{
+	width: 100px;
+	margin-top: -45px;
+	margin-left: -25px;
+}
+
+.img-2{
+	width: 65px;
+	margin-top: -14px;
+	margin-left: -8px;
+}
+
+/*Copyright text*/
+.copy{
+	color: #aaaaaa;
+	font-size: 18px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
+.settings-box{
+	background-color: #333333;
+	color: white;
+	width: 700px;
+	height: 400px;
+	margin-left: 30px;
+	margin-top: 80px;
+	padding-left: 30px;
+}
+
+.settings-box .heading{
+	font-size: 35px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+}
+
+.team-1-form .input-field{
+	width: 200px;
+	height: 30px;
+	border: none;
+	font-size: 20px;
+	padding: 5px;
+
+}
+
+.team-2-form .input-field{
+	width: 200px;
+	height: 30px;
+	border: none;
+	font-size: 20px;
+	margin-top: 20px;
+	padding: 5px;
+}
+
+.team-1-form .btn{
+	width: 100px;
+	height: 35px;
+	background-color: dodgerblue;
+}
+
+.team-2-form .btn{
+	width: 100px;
+	height: 35px;
+	background-color: dodgerblue;
+}
+
+
+.logo-show_hide .heading{
+	font-size: 23px;
+	padding-top: 35px;
+}
+
+.highlight-1{
+	color: #ff0000;
+}
+
+.logo-show_hide .btn{
+	width: 150px;
+	height: 50px;
+	background-color: dodgerblue;
+}
+
+.box-3{
+	width: 600px;
+	height: 400px;
+	margin-top: 20px;
+	margin-left: 30px;
+	background-color: #333333;
+
+}
+
+.box-3 .heading{
+	color: white;
+	font-size: 30px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+
+.text-5{
+	font-size: 18px;
+	color: white;
+	padding-left: 20px;
+}
+
+
+.box-3 .btn-1{
+	margin-left: 20px;
+	font-size: 18px;
+	background-color: dodgerblue;
+	border: none;
+	border-radius: 5px;
+	padding:3px ;
+}
+
+.box-3 .btn-1:focus{
+	border: 2px solid #aaaaaa;
+}
+
+
+.text-6{
+	font-size: 18px;
+	color: white;
+	padding-left: 20px;
+}
